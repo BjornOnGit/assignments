@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR234OliqDeKUCRrtW0i-nnbb1QJEmwrRJSidQEGfruIsX0F9e79yQyQH44DfwPzhLa0Ro&usqp=CAU');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+}
+.form-container{
+  justify-content: center;
+  padding: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+}

@@ -1,0 +1,23 @@
+.lognBtn{
+  background-color: #75847a;
+  color: ;
+  padding: 15px 20px;
+  border: 1px;
+  width: 100%;
+  margin: 8px 1px;
+  cursor: pointer;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+input[type=password], input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #b588cd;
+  border-radius: 8px;
+}
+
+
