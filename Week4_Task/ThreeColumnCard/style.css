@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container{
+  display: flex;
+  flex-flow: row nowrap;
+  height: 300px;
+  font-size: 15px;
+  border-radius: ;
+/*   justify-content: center; */
+/*   align-items: center; */
+/*   margin: auto; */
+}
+
+.container{
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(170, 71%, 77%);
+  height: 100vh;
+  
+}
+
+#sedan{
+  background-color: hsl(31, 77%, 52%);
+  width: 250px;
+  padding: 2em;
+}
+
+#SUV{
+  background-color: hsl(184, 100%, 22%);
+  width: 250px;
+  padding: 2em;
+}
+
+#luxury{
+  background-color: hsl(179, 100%, 13%);
+  width: 250px;
+  padding: 2em;
+}
+
+button{
+  background-color: hsl(0, 0%, 95%);
+  ; center;
+  border-radius: 12px;
+  padding: 5px;
+}

@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: lightgray;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
+
+main{
+  display: grid;
+  grid-template-areas: 
+  'a a a b b'
+  'a a a b b'
+  'a a a b b'
+  'c c d d d'
+  'c c e e e'
+  ;
+  gap: 5px;
+  width: 50%;
+  margin: auto;
+}
+
+main div{
+  padding: 2em;
+  text-align: center;
+}
+
+.grid-1{
+  background-color: orangered;
+  grid-area: a;
+  height: 2cm;
+}
+
+.grid-2{
+  background-color: hsl(50, 90%, 40%);
+  grid-area: b;
+}
+
+.grid-3{
+  background-color: hsl(120, 50%, 40%);
+  grid-area: c;
+}
+
+.grid-4{
+  background-color: hsl(220, 70%, 70%);
+  grid-area: d;
+}
+
+.grid-5{
+  background-color: hsl(220, 70%, 70%);
+  grid-area: e;
+  height: 1cm;
+}
+
+#text{
+  display: none;
+}
